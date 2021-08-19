@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pt-br"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="widht-device-widht, initial-scale = 1, shrink-fit-no"/>
+        <title>Programador C</title>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/font-awesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/sb-admin.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/logincss.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/home.css"/>
+
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+              integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+              crossorigin="anonymous">
+        </link>
+
+    </head>
+
+    <body class="bg-dark fixed-nav sticky-footer" id="page-top">
+        <h4>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <a class="navbar-brand" href="main.xhtml"><strong>Programador C</strong></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button"
+                        data-toggle="collapse" data-target="#navbarCurso" aria-control="navbarCurso" aria-expanded="false" aria-label="Navegação Toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarCurso" class="collapse navbar-collapse">
+                    <ul class="navbar-nav navbar-sidenav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../home.xhtml">
+                                <i class="fa fa-fw fa-bars"></i>
+                                <span class="nav-link-text"><strong>Home</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/historia.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Historia</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo1.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 1</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo2.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 2</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo3.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 3</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/sobre.xhtml">
+                                <i class="fa fa-fw fa-address-book"></i>
+                                <span class="nav-link-text"><strong>Sobre</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"></i>
+                                <span class="nav-link-text"><strong>Sair</strong></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav sidenav-toggler">
+                        <li class="nav-item">
+                            <a id="sidenavToggler" class="nav-link text-center">
+                                <i class="fa fa-fw fa-angle-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <input type="text" class="form-control" placeholder="Pesquisar por..."/>
+                                        <button class="btn btn-warning" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"> Sair</i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </h4>
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="../../home.xhtml">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="../../modulos/modulo3.xhtml">Módulo 3</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        Aula 2  - Strings
+                    </li>
+                </ol>
+
+                <center><h1><strong>Strings</strong></h1></center>
+                <br/>
+                <br/>
+                <h5>
+
+                    O termo string serve para identificar uma sequência de caracteres. Na prática, as strings são usadas para representar textos.<br/>
+                    Em linguagem C, ao contrário de outras linguagens, não existe um tipo de dados string nativo.
+                    <br/>
+
+                    <br/>
+                    <center>
+                        <strong>Pseudocódigo:</strong>
+
+                        <pre>
+
+char nome [tamanho];
+
+                        </pre>
+
+                    </center>
+
+                    O texto que vamos gravar em uma string não precisa ocupar todos os caracteres do vetor. Por isso, utiliza-se o ‘\0‘ para indicar onde o texto termina.
+                    <br/>
+                    <br/>
+                    <center>
+                        <strong>
+                            Exemplo:
+                        </strong>
+
+                        <pre>
+
+char nome[10];
+nome[0] = ‘J’;
+nome[1] = ‘o’;
+nome[2] = ‘ã’;
+nome[3] = ‘o’;
+nome[4] = ‘\0’;
+
+                        </pre>
+                    </center>
+
+                    A inicialização da String também pode ser realizada no momento de sua declaração.
+                    <br/>
+                    <br/>
+
+                    <center>
+                        <strong>veja alguns exemplos abaixo:</strong>
+                        <br/>
+                        <pre>
+
+char nome[ ] = {‘J’, ‘o’, ‘ã’, ‘o’, ‘\0’};
+char nome[7] = “João”;
+char nome[ ] = “João”;
+                        </pre>
+
+                        <strong>Para ler uma string utilizamos o comando %s no scanf. </strong>
+                        <br/>
+                        <pre>
+
+char nome[10];
+scanf(“%s”, &amp;nome[0]);
+                        </pre>
+
+
+                        <strong>Podemos também utilizar apenas o nome do vetor, pois ele representa um ponteiro para o primeiro elemento.</strong>
+                        <pre>
+
+scanf(“%s”, nome);
+
+                        </pre>
+
+                        <br/>
+                        <br/>
+                        <strong>
+                            Exemplo em código
+                            <br/>
+                            <br/>
+                            <div style="width:30%">
+                                <img src="../../resources/modulo3/aula2/exemplo1.jpg" style="width:100%"/>
+                            </div>
+
+                        </strong>
+
+                        <br/>
+                        <br/>
+
+                    </center>
+
+                    Este código simplesmente imprime "ola" na tela mas note que ao inicializar ola colocamos o caracter '\ 0' (que nada mais é que o numero 0) no final do array, ele é necessário pois é a única forma do printf saber onde termina a string.
+                    <br/>
+                    <br/>
+                    Agora escrever esse código toda vez que precisarmos criar uma string é necessário improvisar, por isso, uma das poucas coisas que o compilador C sabe sobre strings é:
+                    <br/>
+                    <br/>
+                    <center>
+                        <div style="width:30%">
+                            <img src="../../resources/modulo3/aula2/exemplo2.jpg" style="width:100%"/>
+                        </div>
+
+                    </center>
+                    <br/>
+                    <br/>
+                    Este código é idêntico ao anterior, mas escrito de uma maneira bem mais simples. Note que o compilador reconhece a string "Programador C" depois declara um array  e já inicializa ela com a string "Programador C".
+
+                    <br/>
+                    <br/>
+
+
+                    <center>
+                        <strong>
+                            Também podemos comparar as strings
+                            <br/>
+                            <br/>
+                            <div style="width:30%">
+                                <img src="../../resources/modulo3/aula2/exemplo3.jpg" style="width:100%"/>
+                            </div>
+
+                        </strong>
+                    </center>
+                    <br/>
+                    <br/>
+
+                    No programa demonstrado acima, realizamos a comparação da string passando caracter por caracter. <br/>
+                    Para facilitar um pouco a vida dos programadores, a biblioteca padrão da linguagem já vem com uma função de
+                    comparação de strings, a <strong>strcomp</strong>.
+
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+
+                    <center>
+                        <strong>Utilizando strcomp na comparação de Strings</strong>
+                        <br/>
+                        <br/>
+
+                        <div style="width:40%">
+                            <img src="../../resources/modulo3/aula2/exemplo4.jpg" style="width:100%"/>
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+
+
+                        <strong>Também é possível copiar uma String</strong>
+                        <br/>
+                        <br/>
+
+                        <div style="width:50%">
+                            <img src="../../resources/modulo3/aula2/exemplo5.jpg" style="width:100%"/>
+                        </div>
+
+
+                    </center>
+
+                    <br/>
+                    <br/>
+
+                    A função copiaString acima resolve o problema,<strong> mas tem uma série de observações que devem ser feitas</strong>:<br/>
+
+                    - O usuário precisa informar o tamanho ou a quantidade a ser copiada;<br/>
+                    - Se o usuário passar o tamanho errado, a função vai fazer coisa errada;<br/>
+                    - Se o usuário informar um tamanho pequeno, a função não vai incluir o 0 no final da string, quebrando assim a convenção de strings da linguagem.
+
+
+
+
+
+
+                </h5>
+
+                <br/><br/>
+
+                <center><button type="button" class="btn btn-warning btn-lg"><a href="../../modulos/modulo3.xhtml" class="btn btn-warning"><strong>Concluir Aula</strong></a></button></center>
+                <br/>
+
+            </div>
+
+            <footer class="sticky-footer">
+                <div class="container">
+                    <div class="text-center">
+                        <small><strong>Copyright - Gustavo 2019</strong></small>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <script src="../../bibliotecas/jquery/jquery.min.js"></script>
+        <script src="../../bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../../bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+        <script src="../../bibliotecas/js/sb-admin.min.js" type="text/javascript"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    </body>
+
+
+</html>
+

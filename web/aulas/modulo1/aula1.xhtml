@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pt-br"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="widht-device-widht, initial-scale = 1, shrink-fit-no"/>
+        <title>Programador C</title>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/font-awesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/sb-admin.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/logincss.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/home.css"/>
+    </head>
+
+    <body class="bg-dark fixed-nav sticky-footer" id="page-top">
+        <h4>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <a class="navbar-brand" href="main.xhtml"><strong>Programador C</strong></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button"
+                        data-toggle="collapse" data-target="#navbarCurso" aria-control="navbarCurso" aria-expanded="false" aria-label="Navegação Toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarCurso" class="collapse navbar-collapse">
+                    <ul class="navbar-nav navbar-sidenav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../home.xhtml">
+                                <i class="fa fa-fw fa-bars"></i>
+                                <span class="nav-link-text"><strong>Home</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/historia.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Historia</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo1.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 1</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo2.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 2</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo3.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 3</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/sobre.xhtml">
+                                <i class="fa fa-fw fa-address-book"></i>
+                                <span class="nav-link-text"><strong>Sobre</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"></i>
+                                <span class="nav-link-text"><strong>Sair</strong></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav sidenav-toggler">
+                        <li class="nav-item">
+                            <a id="sidenavToggler" class="nav-link text-center">
+                                <i class="fa fa-fw fa-angle-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <input type="text" class="form-control" placeholder="Pesquisar por..."/>
+                                        <button class="btn btn-warning" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"> Sair</i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </h4>
+
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="../../home.xhtml">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="../../modulos/modulo1.xhtml">Modulo 1</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        Aula 1 - Case sensitive
+                    </li>
+                </ol>
+
+                <center><h1><strong>Case Sensitive</strong></h1></center>
+                <br/>
+                <br/>
+                <h5>O primeiro passo para aprender sobre a linguagem de programação C
+                    é entendo que ela é uma linguagem "case sensitive", isto é, caracteres
+                    maiúsculus e minúsculos podem fazer toda a diferença!
+                    <br/>
+                    <br/>
+                    Exemplo: Se declarar uma variável com o nome soma ela será diferente de Soma,
+                    SOMA, SoMa ou sOmA. Da mesma maneira, os comandos do C if e for, por exemplo,
+                    só podem ser escritos em letras minúsculas pois senão o compilador não irá interpretá-los
+                    como sendo tokens da linguagem, mas sim como variáveis criadas pelo usuário.
+                    <br/>
+                    <br/>
+                    <center>
+                        <strong>Exemplo de if <font color="green">correto</font>:</strong> <br/> <br/>
+
+                        <div style="width:55%">
+                            <img src="../../resources/modulo1/aula1/ifcorreto.jpg" style="width:100%"/>
+                        </div>
+
+                        <br/><br/>
+
+                        <strong>Exemplo de if <font color="red">incorreto</font>:</strong> <br/> <br/>
+
+                        <div style="width:55%">
+                            <img src="../../resources/modulo1/aula1/ifincorreto.jpg" style="width:100%"/>
+                        </div>
+
+
+
+                        <br/><br/>
+
+                        <strong>Erro gerado na linha 7:</strong> <br/> <br/>
+
+                        <div style="width:60%">
+                            <img src="../../resources/modulo1/aula1/erro.jpg" style="width:100%"/>
+                        </div>
+
+                    </center>
+                    <br/><br/>
+
+                    O erro acima ocorreu pelo fato do comando if estar escrito de forma incorreta, o que faz
+                    com que ele não seja reconhecido como uma palavra reservada, o motivo disso? <strong>Case Sensitive</strong>.
+                    <br/><br/>
+
+                    <center><button type="button" class="btn btn-warning btn-lg"><a href="../../modulos/modulo1.xhtml" class="btn btn-warning"><strong>Concluir Aula</strong></a></button></center>
+                    <br/>
+
+                </h5>
+
+
+            </div>
+
+            <footer class="sticky-footer">
+                <div class="container">
+                    <div class="text-center">
+                        <small><strong>Copyright - Gustavo 2019</strong></small>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <script src="../../bibliotecas/jquery/jquery.min.js"></script>
+        <script src="../../bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../../bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+        <script src="../../bibliotecas/js/sb-admin.min.js" type="text/javascript"></script>
+    </body>
+
+
+</html>

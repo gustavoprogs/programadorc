@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pt-br"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="widht-device-widht, initial-scale = 1, shrink-fit-no"/>
+        <title>Programador C</title>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/font-awesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/sb-admin.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/logincss.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/home.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/prova1.css"/>
+
+
+
+
+    </head>
+
+    <body class="bg-dark fixed-nav sticky-footer" id="page-top">
+        <h5>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <a class="navbar-brand" href="main.xhtml"><strong>Programador C</strong></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button"
+                        data-toggle="collapse" data-target="#navbarCurso" aria-control="navbarCurso" aria-expanded="false" aria-label="Navegação Toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarCurso" class="collapse navbar-collapse">
+                    <ul class="navbar-nav navbar-sidenav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../home.xhtml">
+                                <i class="fa fa-fw fa-bars"></i>
+                                <span class="nav-link-text"><strong>Home</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/historia.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Historia</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo1.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 1</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo2.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 2</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo3.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 3</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/sobre.xhtml">
+                                <i class="fa fa-fw fa-address-book"></i>
+                                <span class="nav-link-text"><strong>Sobre</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"></i>
+                                <span class="nav-link-text"><strong>Sair</strong></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav sidenav-toggler">
+                        <li class="nav-item">
+                            <a id="sidenavToggler" class="nav-link text-center">
+                                <i class="fa fa-fw fa-angle-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <input type="text" class="form-control" placeholder="Pesquisar por..."/>
+                                        <button class="btn btn-warning" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"> Sair</i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </h5>
+
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="../../home.xhtml">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="../../modulos/modulo1.xhtml">Modulo 1</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        Primeira prova
+                    </li>
+                </ol>
+
+                <center><h1><strong>Prova - Módulo 1</strong></h1></center>
+                <center>
+
+                    <img src="../../resources/modulo1/prova/prova.png" width="130"/>
+
+                </center>
+
+
+                <h4 align="justify">
+
+                    <center>
+                        <br/>
+
+                        Realize a prova apenas após assistir todas as aulas do módulo! </center>
+
+                    <br/>
+                    <strong>___________________________________________________________________________________________________________</strong>
+                    <br/>
+                    <strong>1 - O que é uma linguagem Case Sensitive?</strong>
+                    <br/>
+                    <br/>
+                    <h:form>
+                        <h:selectOneRadio id="questaoa1" value="#{usuarioMB.questao1}" layout="pageDirection">
+                            <f:selectItem itemLabel="A) Linguagem sensível à caixa das letras, onde letras maiúsculas e minúsculas não diferenciam." itemValue="a"  />
+                            <f:selectItem itemLabel="B) Linguagem sensível à caixa das letras, onde letras maiúsculas e minúsculas se diferenciam." itemValue="b" />
+                            <f:selectItem itemLabel="C) Linguagem de programação orientada a objetos." itemValue="c" />
+                            <f:selectItem itemLabel="D) Linguagem não sensível à caixa das letras, letras maiúsculas e minúsculas não se diferenciam." itemValue="d" />
+                        </h:selectOneRadio>
+                        <br/>
+                        <br/>
+                        <strong>___________________________________________________________________________________________________________</strong>
+                        <br/>
+
+                        <strong>2 - Marque a alternativa que não representa uma palavra reservada da linguagem C</strong>
+                        <br/>
+                        <br/>
+                        <h:selectOneRadio id="questaoa2" value="#{usuarioMB.questao2}" layout="pageDirection">
+                            <f:selectItem itemLabel="A) break." itemValue="a"  />
+                            <f:selectItem itemLabel="B) typedef." itemValue="b" />
+                            <f:selectItem itemLabel="C) string." itemValue="c" />
+                            <f:selectItem itemLabel="D) union." itemValue="d" />
+                        </h:selectOneRadio>
+
+                        <br/>
+                        <br/>
+                        <strong>___________________________________________________________________________________________________________</strong>
+                        <br/>
+
+                        <strong>3 - Marque a alternativa referente declaçarão incorreta de uma variável em C</strong>
+                        <br/>
+                        <br/>
+
+                        <h:selectOneRadio id="questaoa3" value="#{usuarioMB.questao3}" layout="pageDirection">
+                            <f:selectItem itemLabel="A) 10Programador." itemValue="a"  />
+                            <f:selectItem itemLabel="B) Programador10." itemValue="b" />
+                            <f:selectItem itemLabel="C) y." itemValue="c" />
+                            <f:selectItem itemLabel="D) Programador_10." itemValue="d" />
+                        </h:selectOneRadio>
+
+
+                        <br/>
+                        <br/>
+                        <strong>___________________________________________________________________________________________________________</strong>
+                        <br/>
+
+                        <strong>4 - Marque a explicação incorreta</strong>
+                        <br/>
+                        <br/>
+
+                        <h:selectOneRadio id="questaoa4" value="#{usuarioMB.questao4}" layout="pageDirection">
+                            <f:selectItem itemLabel="A) char:  Armazena na cariável um caracter de 1 byte." itemValue="a"  />
+                            <f:selectItem itemLabel="B) int: Armazena na variável numeros inteiros." itemValue="b" />
+                            <f:selectItem itemLabel="C) float: Armazena números com ponto flutuante com precisão simples." itemValue="c" />
+                            <f:selectItem itemLabel="D) double: É uma variável de precisão dupla aceitando dois tipos de valores." itemValue="d" />
+                        </h:selectOneRadio>
+
+                        <br/>
+                        <br/>
+                        <strong>___________________________________________________________________________________________________________</strong>
+                        <br/>
+
+                        <strong>5 - Não é um operador da linguagem de programação C</strong>
+                        <br/>
+                        <br/>
+
+                        <h:selectOneRadio id="questaoa5" value="#{usuarioMB.questao5}" layout="pageDirection">
+                            <f:selectItem itemLabel="A) Operadores Semânticos." itemValue="a"  />
+                            <f:selectItem itemLabel="B) Operadores Aritméticos." itemValue="b" />
+                            <f:selectItem itemLabel="C) Operadores Relacionais." itemValue="c" />
+                            <f:selectItem itemLabel="D) Operadores Lógicos." itemValue="d" />
+                        </h:selectOneRadio>
+
+                        <br/>
+                        <br/>
+                        <strong>___________________________________________________________________________________________________________</strong>
+                        <br/>
+
+                        <strong>6 - Para que é utilizado o comando #include?</strong>
+                        <br/>
+                        <br/>
+
+                        <h:selectOneRadio id="questaoa6" value="#{usuarioMB.questao6}" layout="pageDirection">
+                            <f:selectItem itemLabel="A) Incluir funções no programa." itemValue="a"  />
+                            <f:selectItem itemLabel="B) Incluir vetores no programa." itemValue="b" />
+                            <f:selectItem itemLabel="C) Incluir as variáveis no programa." itemValue="c" />
+                            <f:selectItem itemLabel="D) Incluir bibliotecas no programa." itemValue="d" />
+                        </h:selectOneRadio>
+
+                        <br/>
+                        <br/>
+                        <strong>___________________________________________________________________________________________________________</strong>
+                        <br/>
+
+                        <strong>7 - Para realizar a leitura de um inteiro utilizamos qual dos seguintes comandos?</strong>
+                        <br/>
+                        <br/>
+
+                        <h:selectOneRadio id="questaoa7" value="#{usuarioMB.questao7}" layout="pageDirection">
+                            <f:selectItem itemLabel="A)  scanf ('%d', a)." itemValue="a"  />
+                            <f:selectItem itemLabel="B) scanf ('%a', a)." itemValue="b" />
+                            <f:selectItem itemLabel="C) scanf ('%c', a)." itemValue="c" />
+                            <f:selectItem itemLabel="D) D) scanf ('%b', a)." itemValue="d" />
+                        </h:selectOneRadio>
+
+                        <br/>
+                        <br/>
+                        <strong>___________________________________________________________________________________________________________</strong>
+                        <br/>
+
+                        <strong>8 - Marque a alternativa correta referente a criação de comentários</strong>
+                        <br/>
+                        <br/>
+
+                        <h:selectOneRadio id="questaoa8" value="#{usuarioMB.questao8}" layout="pageDirection">
+                            <f:selectItem itemLabel="A) ' Comentario correto '." itemValue="a"  />
+                            <f:selectItem itemLabel="B) /* Comentario correto */." itemValue="b" />
+                            <f:selectItem itemLabel="C) /- commentario correto -/." itemValue="c" />
+                            <f:selectItem itemLabel="D) (* comentario correto *)." itemValue="d" />
+                        </h:selectOneRadio>
+
+                        <br/>
+                        <br/>
+                        <strong>___________________________________________________________________________________________________________</strong>
+                        <br/>
+
+                        <strong>9 - Marque a alternativa incorreta sobre as funções</strong>
+                        <br/>
+                        <br/>
+
+                        <h:selectOneRadio id="questaoa9" value="#{usuarioMB.questao9}" layout="pageDirection">
+                            <f:selectItem itemLabel="A) Permite o reaproveitamento de código já construído." itemValue="a"  />
+                            <f:selectItem itemLabel="B) Evita que um trecho de código que seja repetido várias vezes dentro de um mesmo programa." itemValue="b" />
+                            <f:selectItem itemLabel="C) Facilita a utilização do programa para o usuário." itemValue="c" />
+                            <f:selectItem itemLabel="D) Permitir a alteração de um trecho de código de uma forma mais rápida." itemValue="d" />
+                        </h:selectOneRadio>
+
+                        <br/>
+                        <br/>
+                        <strong>___________________________________________________________________________________________________________</strong>
+                        <br/>
+
+                        <strong>10 - O que são os argumentos de uma função?</strong>
+                        <br/>
+                        <br/>
+
+                        <h:selectOneRadio id="questaoa10" value="#{usuarioMB.questao10}" layout="pageDirection">
+                            <f:selectItem itemLabel="A) São os comentarios dentro de seu bloco de código." itemValue="a"  />
+                            <f:selectItem itemLabel="B) São os parâmetros que a função recebe." itemValue="b" />
+                            <f:selectItem itemLabel="C) São os calculos realizados pela função." itemValue="c" />
+                            <f:selectItem itemLabel="D) São as linhas de código dentro da função." itemValue="d" />
+                        </h:selectOneRadio>
+
+
+
+                        <center> <h:commandButton action="#{usuarioMB.Calcular()}" value="Enviar Respostas" class="btn btn-warning"></h:commandButton></center>
+
+                    </h:form>
+
+                </h4>
+
+
+            </div>
+
+            <footer class="sticky-footer">
+                <div class="container">
+                    <div class="text-center">
+                        <small><strong>Copyright - Gustavo 2019</strong></small>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+
+
+
+        <script src="../../bibliotecas/jquery/jquery.min.js"></script>
+        <script src="../../bibliotecas/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+    </body>
+
+
+</html>

@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background: #151719;
+    left: -300px;
+}
+
+#sidebar.active {
+    left: 0px;
+}
+
+
+#sidebar ul li {
+    color: White;
+    list-style:none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    Left: 320px;
+    top: 20px;
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
+}
+
+a.youtube{
+    color: red;
+}
+
+a.facebook{
+    color: blue;
+}
+
+a.instagram{
+    color: magenta;
+}
+
+a.git{
+    color: black;
+}
+
+div.teste{
+    display: inline;
+}
+
+
+
+
+
+
+
+

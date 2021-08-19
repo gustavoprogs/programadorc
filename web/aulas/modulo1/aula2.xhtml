@@ -1,0 +1,1154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pt-br"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="widht-device-widht, initial-scale = 1, shrink-fit-no"/>
+        <title>Programador C</title>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/font-awesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/sb-admin.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/logincss.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/home.css"/>
+
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+              integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+              crossorigin="anonymous">
+        </link>
+    </head>
+
+    <body class="bg-dark fixed-nav sticky-footer" id="page-top">
+        <h4>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <a class="navbar-brand" href="main.xhtml"><strong>Programador C</strong></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button"
+                        data-toggle="collapse" data-target="#navbarCurso" aria-control="navbarCurso" aria-expanded="false" aria-label="Navegação Toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarCurso" class="collapse navbar-collapse">
+                    <ul class="navbar-nav navbar-sidenav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../home.xhtml">
+                                <i class="fa fa-fw fa-bars"></i>
+                                <span class="nav-link-text"><strong>Home</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/historia.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Historia</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo1.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 1</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo2.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 2</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo3.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 3</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/sobre.xhtml">
+                                <i class="fa fa-fw fa-address-book"></i>
+                                <span class="nav-link-text"><strong>Sobre</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"></i>
+                                <span class="nav-link-text"><strong>Sair</strong></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav sidenav-toggler">
+                        <li class="nav-item">
+                            <a id="sidenavToggler" class="nav-link text-center">
+                                <i class="fa fa-fw fa-angle-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <input type="text" class="form-control" placeholder="Pesquisar por..."/>
+                                        <button class="btn btn-warning" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"> Sair</i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </h4>
+
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="../../home.xhtml">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="../../modulos/modulo1.xhtml">Modulo 1</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        Aula 2 - Palavras Reservadas
+                    </li>
+                </ol>
+
+                <center><h1><strong>Palavras reservadas</strong></h1></center>
+                <br/>
+                <br/>
+                <h5> As palavras reservadas, também conhecidas como palavras chave da linguagem C,
+                    são comandos de uso muito específico dentro da linguagem.
+                    <br/><br/>
+                    Estas palavras não podem ser usadas com outro propósito além do original dentro de programas em C.
+                    Por exemplo, você não pode usar palavras reservadas para dar nome a variáveis ou funções.
+                    <br/><br/>
+
+                    O padrão ANSI C definiu um conjunto de 32 palavras reservadas na linguagem C, veremos a seguir
+                    o significado de cada uma delas.
+                    <br/><br/>
+                    <center>
+                        <div style="width:100%">
+
+
+                            <!-- Modal ASM-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalExemplo">
+                                <strong>asm</strong>
+                            </button>
+
+
+                            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada:<strong> asm</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h5>Indica instruções em assembly.<br/><br/>
+                                                <strong>Exemplo:</strong><br/>
+                                                <pre>
+asm [volatile] ( "SEU CODIGO\n\t"
+"EM\n\t"
+"ASSEMBLY"
+: OperadoresDeSaída
+[ : OperadoresDeEntrada
+[ : Clobbers ] ])<br/>
+                                                </pre>
+                                            </h5>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal AUTO-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalAuto">
+                                <strong>auto</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalAuto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>auto</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h5>Define a classe de armazenamento padrão, ou seja ,
+                                                a variável é criada quando a função é invocada e
+                                                depois é destruída quando a função termina.<br/><br/>
+
+                                                Uma vez atribuído um valor para uma variável auto, é
+                                                impossível mudar o tipo da variável
+                                                <br/>
+                                            </h5>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal BREAK-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalBreak">
+                                <strong>break</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalBreak" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>break</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h5>Comando para forçar a saída imediata dos comandos
+                                                switch, for, while, e também, do…while.</h5>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br/>
+                            <br/>
+
+                            <!-- Modal case-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalCase">
+                                <strong>case</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalCase" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>case</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>Comando utilizado dentro do comando switch para selecionar uma constante.</h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal CHAR-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalChar">
+                                <strong>char</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalChar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>char</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Tipo de dado utilizado para armazenar caracteres.<br/><br/>
+                                                <strong>Exemplo:</strong><br/>
+                                                Para guardar a letra C, escrevemos:<br/><br/>
+
+                                                char letra = 'C';<br/><br/>
+
+                                                A sintaxe linguagem de programação é case sensitive, ou seja, minúsculo é diferente de maiúsculo.
+                                                Por exemplo:<br/><br/>
+
+                                                char letraMinuscula = 'c';<br/>
+                                                char letraMaiuscula = 'C';<br/><br/>
+
+                                                Esses dois caracteres, embora representem a mesma letra, são totalmente diferentes, pois uma é maiúscula e a outra é minúscula.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal CONST-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalConst">
+                                <strong>const</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalConst" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>const</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Impede que uma variável seja modificada, criando assim uma constante.<br/><br/>
+                                                <strong>Exemplo:</strong><br/><br/>
+                                                <pre>
+const int aposentadoria = 65;<br/>
+const int maioridade = 18;
+                                                </pre>
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br/>
+                            <br/>
+                            <!-- Modal CONTINUE-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalContinue">
+                                <strong>continue</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalContinue" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>continue</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Força a interrupção dos loops: <br/><br/>
+                                                for,<br/>
+                                                while, ou<br/>
+                                                do…while<br/><br/>
+                                                fazendo com que passem para a próxima iteração.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal DEFAULT-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalDefault">
+                                <strong>default</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalDefault" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>default</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                É utilizado dentro de switch…case
+                                                para tratar valores não definidos anteriormente nas opções case.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- Modal do-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalDo">
+                                <strong>do</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalDo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>do</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Estutura de repetição usada em conjunto com o while.<br/><br/>
+                                                O comando do…while faz com que os comandos do bloco a ser
+                                                repetido sejam executados no mínimo uma vez.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br/>
+                            <br/>
+                            <!-- Modal double-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalDouble">
+                                <strong>double</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalDouble" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>double</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Tipo de dados numérico de ponto flutuante com precisão dupla.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal else-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalElse">
+                                <strong>else</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalElse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>else</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Indica um bloco de comandos a ser executado quando a condição do comando if for falsa.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Modal enum-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalEnum">
+                                <strong>enum</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalEnum" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>enum</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Tipo de dados definido pelo programador que permite a definição de constantes.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br/>
+                            <br/>
+                            <!-- Modal extern-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalExtern">
+                                <strong>extern</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalExtern" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>extern</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Indica que uma variável foi declarada em outro arquivo.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal float-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalFloat">
+                                <strong>float</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalFloat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>float</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Tipo de dados de ponto flutuante com precisão simples.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal for-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalFor">
+                                <strong>for</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalFor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>for</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Estrutura de repetição que utiliza condições e contador.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br/>
+                            <br/>
+
+                            <!-- Modal GOTO-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalGoto">
+                                <strong>goto</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalGoto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>goto</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Comando que permite “saltar” incondicionalmente para uma posição do programa pré-deteminada.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal if-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalIf">
+                                <strong>if</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalIf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>if</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Comando condicional que altera o fluxo do programa de acordo com uma condição que pode ser verdadeira ou falsa.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- Modal INT-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalInt">
+                                <strong>int</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalInt" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>int</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                É o tipo de dados mais usado para armazenar valores inteiros.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br/>
+                            <br/>
+                            <!-- Modal long-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalLong">
+                                <strong>long</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>long</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                É um tipo de dados usado para armazenar valores inteiros que possui precisão superior ao tipo int.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalRegister">
+                                <strong>register</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>register</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Solicita o armazenamento diretamente nos registradores do processador.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal return-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalReturn">
+                                <strong>return</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalReturn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>return</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Retorna um valor dentro de uma função ou força o abandono da mesma.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br/>
+                            <br/>
+                            <!-- Modal short-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalShort">
+                                <strong>short</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalShort" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>short</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                É o chamado inteiro curto. <br/><br/>
+                                                Armazena valores inteiros com precisão menor (apenas 2 bytes) do que o tipo int.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal signed-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalSigned">
+                                <strong>signed</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalSigned" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>signed</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Sinaliza que uma variável pode armazenar tanto valores positivos como negativos.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal sizeof-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalSizeof">
+                                <strong>sizeof</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalSizeof" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>sizeof</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Comando usado para retornar o tamanho em bytes de um determinado tipo de dados.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br/>
+                            <br/>
+                            <!-- Modal static-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalStatic">
+                                <strong>static</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalStatic" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>static</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Comando que avisa ao compilador para reter o valor de uma determinada variável.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal struct-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalStruct">
+                                <strong>struct</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalStruct" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>struct</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Cria as chamadas estruturas ou seja registros.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal switch-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalSwitch">
+                                <strong>switch</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalSwitch" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>switch</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Comando de seleção usando em conjunto com o comando case, permite escolher entre várias opções.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br/>
+                            <br/>
+                            <!-- Modal typedef-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalTypedef">
+                                <strong>typedef</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalTypedef" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>typedef</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                É um comando modificador usado para criar novos nomes para tipos de dados.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal union-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalUnion">
+                                <strong>union</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalUnion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>union</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Permite que um conjunto de variáveis partilhem o mesmo espaço na memória.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal unsigned-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalUnsigned">
+                                <strong>unsigned</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalUnsigned" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>unsigned</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Faz com que a variável apenas aceite valores positivos ou zero.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br/>
+                            <br/>
+
+                            <!-- Modal void-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalVoid">
+                                <strong>void</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalVoid" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>void</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Comando que indica que a função não retorna nada ou que não tem parâmetros de entrada.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal volatile-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalVolatile">
+                                <strong>volatile</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalVolatile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>volatile</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Indica que uma variável pode ser alterada.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal while-->
+
+                            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#modalWhile">
+                                <strong>while</strong>
+                            </button>
+
+                            <div class="modal fade" id="modalWhile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Palavra reservada: <strong>while</strong></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4>
+                                                Estrutura de repetição que executa enquanto uma condição é verdadeira.
+                                            </h4>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal"><strong>Fechar</strong></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br/>
+                            <br/>
+
+
+                            <h5><strong>Observação:</strong> Todas as palavras reservadas da linguagem de programação C são sempre
+                                escritas em letras minúsculas</h5>
+
+
+                        </div>
+                    </center>
+                </h5>
+
+                <br/><br/>
+
+                <center><button type="button" class="btn btn-warning btn-lg"><a href="../../modulos/modulo1.xhtml" class="btn btn-warning"><strong>Concluir Aula</strong></a></button></center>
+                <br/>
+
+            </div>
+
+            <footer class="sticky-footer">
+                <div class="container">
+                    <div class="text-center">
+                        <small><strong>Copyright - Gustavo 2019</strong></small>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <script src="../../bibliotecas/jquery/jquery.min.js"></script>
+        <script src="../../bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../../bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+        <script src="../../bibliotecas/js/sb-admin.min.js" type="text/javascript"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+    </body>
+
+
+</html>

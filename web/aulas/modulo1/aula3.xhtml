@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pt-br"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="widht-device-widht, initial-scale = 1, shrink-fit-no"/>
+        <title>Programador C</title>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../bibliotecas/font-awesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/sb-admin.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/logincss.css"/>
+        <link rel="stylesheet" type="text/css"  href="../../css/home.css"/>
+    </head>
+
+    <body class="bg-dark fixed-nav sticky-footer" id="page-top">
+        <h4>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <a class="navbar-brand" href="main.xhtml"><strong>Programador C</strong></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button"
+                        data-toggle="collapse" data-target="#navbarCurso" aria-control="navbarCurso" aria-expanded="false" aria-label="Navegação Toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarCurso" class="collapse navbar-collapse">
+                    <ul class="navbar-nav navbar-sidenav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../home.xhtml">
+                                <i class="fa fa-fw fa-bars"></i>
+                                <span class="nav-link-text"><strong>Home</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/historia.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Historia</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo1.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 1</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo2.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 2</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/modulo3.xhtml">
+                                <i class="fa fa-fw fa-book"></i>
+                                <span class="nav-link-text"><strong>Módulo 3</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../modulos/sobre.xhtml">
+                                <i class="fa fa-fw fa-address-book"></i>
+                                <span class="nav-link-text"><strong>Sobre</strong></span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"></i>
+                                <span class="nav-link-text"><strong>Sair</strong></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav sidenav-toggler">
+                        <li class="nav-item">
+                            <a id="sidenavToggler" class="nav-link text-center">
+                                <i class="fa fa-fw fa-angle-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <input type="text" class="form-control" placeholder="Pesquisar por..."/>
+                                        <button class="btn btn-warning" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.xhtml">
+                                <i class="fa fa-sign-out"> Sair</i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+
+        </h4>
+
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="../../home.xhtml">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="../../modulos/modulo1.xhtml">Modulo 1</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        Aula 3 - Variáveis
+                    </li>
+                </ol>
+
+                <center><h1><strong>Variáveis</strong></h1></center>
+                <br/>
+                <br/>
+                <h5>
+                    <strong>O que é uma variável?</strong><br/>
+                    Uma variável é utilizada dentro do compilador para determinar uma “região de memória (do computador) previamente identificada (nome da variável),
+                    cuja finalidade é armazenar os dados ou informações de um programa por um determinado espaço de tempo.
+                    <br/>
+                    <br/>
+                    <br/>
+
+                    <strong>Nomes de variáveis:</strong><br/>
+                    É uma prática tradicional do C, usar letras minúsculas para nomes de variáveis e maiúsculas para
+                    nomes de constantes. Isto facilita na hora da leitura do código;<br/>
+                    Quando se escreve código usando nomes de variáveis em português,
+                    evita-se possíveis conflitos com nomes de rotinas encontrados nas diversas bibliotecas
+                    que são em sua maioria absoluta, palavras em inglês.
+                    <br/>
+                    <br/>
+                    <strong>Observações</strong><br/>
+                    • O nome das variáveis pode ser qualque palavra que não seja uma palavra chave da linguagem (Aula 2).<br/>
+                    • E possivel conter um número na palavra: Casa1<br/>
+                    • Não é aceitável iniciar com um número: 1casa <strong>(errado)</strong><br/>
+                    • E possivel utilizar subscrito, desde que não inicie com ele: Casa_da_ana<br/>
+                    • Não é possível utilizar no nome da variável os seguintes caracteres:<br/>
+                    <strong>{ ( + - * / ; . , ?</strong><br/>
+
+
+                    <br/>
+                    <br/>
+                    <br/>
+
+                    <strong>Sintaxe de declarações de variáveis em C:</strong><br/>
+                    Em C devemos listar primeiro o tipo, depois o nome da variável.
+                    <br/>
+                    <br/>
+                    <br/>
+
+                    <strong>Pseudocódigo:</strong><br/>
+                    <pre class="teste">
+&lt;tipo&gt; &lt;nome_da_variável&gt;
+                    </pre>
+                    <br/>
+
+                    <strong>Declaração de Variáveis</strong>
+                    <br/>
+                    - Todas as variáveis tem que ser declaradas antes de serem usadas.<br/>
+                    - Não há uma inicialização implícita na declaração.
+                    <br/>
+                    <br/>
+
+                    <center>
+                        <strong>Exemplo 1 - Declarações de variáveis:</strong>
+                        <br/>
+                        <br/>
+
+                        <div style="width:70%">
+                            <img src="../../resources/modulo1/aula3/Exemplo1.png" style="width:100%"/>
+                        </div>
+
+                    </center>
+                    <br/>
+                    <br/>
+
+                    Elas também podem ser inicializadas com valores no momento de sua declaração.
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+
+                    <center>
+                        <strong>Exemplo 2 - Declarando e inicializando as variáveis:</strong>
+                        <br/>
+                        <br/>
+
+                        <div style="width:70%">
+                            <img src="../../resources/modulo1/aula3/Exemplo2.png" style="width:100%"/>
+                        </div>
+                    </center>
+
+                    <br/>
+                    <br/>
+
+                    Toda variável possui um tipo de dado que a caracteriza, veremos na aula 04 sobre os tipos de dados existentes
+                    dentro da linguagem de programação C.
+
+
+
+
+                </h5>
+
+                <br/><br/>
+
+                <center><button type="button" class="btn btn-warning btn-lg"><a href="../../modulos/modulo1.xhtml" class="btn btn-warning"><strong>Concluir Aula</strong></a></button></center>
+                <br/>
+            </div>
+
+            <footer class="sticky-footer">
+                <div class="container">
+                    <div class="text-center">
+                        <small><strong>Copyright - Gustavo 2019</strong></small>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <script src="../../bibliotecas/jquery/jquery.min.js"></script>
+        <script src="../../bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../../bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+        <script src="../../bibliotecas/js/sb-admin.min.js" type="text/javascript"></script>
+    </body>
+
+
+</html>
