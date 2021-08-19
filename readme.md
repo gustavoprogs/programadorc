@@ -4,7 +4,7 @@
 
 ##### Tecnologias utilizadas:
 
-* Java, HTML, CSS, SQL;
+* JavaScript, Java, HTML, CSS, SQL;
 
 * Bootstrap, JSF, Hibernate;
 
